@@ -1,0 +1,6 @@
+#funkcja wartosc_przyszla
+FV = function(kapital, stopa, lata){
+wynik=kapital*(1+stopa)^lata
+return(wynik)
+}
+FV(300, 0.3, 3)
