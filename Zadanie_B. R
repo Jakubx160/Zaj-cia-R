@@ -1,0 +1,15 @@
+# kalkulator
+kalkulator = function(a, b, operacja){
+if (operacja=="+"){
+wynik=a+b}
+else if(operacja=="-"){
+wynik=a-b}
+else if(operacja=="*"){
+wynik=a*b}
+else if(operacja=="/"&& b!=0){
+wynik=a/b}
+else if(operacja=="/"&& b==0){
+print(""Błąd: dzielenie przez zero!")}
+else if(operacja!="+" || operacja!="-"|| operacja!="*"|| operacja!="/"){
+print("Nieznana operacja")}
+return(wynik)}
